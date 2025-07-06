@@ -1,0 +1,103 @@
+/* Estilos gerais para todo o site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho com menu de navegação */
+header {
+  background-color: #2b1261;
+  padding:100px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1, h2 {
+  color: #080808fc;
+  background-size:cover;
+  background-color: #ccc;
+  font-size: xx-large;
+padding: 10px;
+
+
+}
+h1{background-size: cover;}
+
+/* Formulário de contato */
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Banner do portfólio */
+.banner-portfolio {
+  position: relative;
+  background: url('imagens/Imagem2portfolio.jpg') no-repeat center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Texto sobre a imagem */
+.banner-portfolio h1 {
+  color: #003049;
+  font-size: 36px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
